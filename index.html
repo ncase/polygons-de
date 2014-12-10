@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8>
+
+	<!-- Place this data between the <head> tags of your website -->
+	<title>Parabel der Polygone - ein spielbares Posting über die Form der Gesellschaft</title>
+	<meta name="description" content="Ein spielbares Posting über Spieltheorie, Vielfalt und niedliche, intolerante Kreaturen." />
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="Parabel der Polygone">
+	<meta itemprop="description" content="Ein spielbares Posting über Spieltheorie, Vielfalt und niedliche, intolerante Kreaturen.">
+	<meta itemprop="image" content="http://ncase.me/polygons/social/thumbnail.png">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ncasenmare">
+	<meta name="twitter:title" content="Parabel der Polygone">
+	<meta name="twitter:description" content="Ein spielbares Posting über Spieltheorie, Vielfalt und niedliche, intolerante Kreaturen.">
+	<meta name="twitter:creator" content="@vihartvihart">
+	<meta name="twitter:image" content="http://ncase.me/polygons/social/thumbnail.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Parabel der Polygone">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://ncase.me/polygons">
+	<meta property="og:image" content="http://ncase.me/polygons/social/thumbnail.png">
+	<meta property="og:description" content="Ein spielbareres Posting über Spieltheorie, Vielfalt und niedliche, intolerante Kreaturen.">
+	<meta property="og:site_name" content="Parabel der Polygone">
+
+	<!-- CSS -->
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<!-- CARTOONS -->
+	<div id="cartoon_container">
+		<img id="cartoon" width="270" src=""/>
+		<div id="cartoon_arrow"></div>
+	</div>
+
+	<!-- SPLASH -->
+	<div id="intro_container">
+		<div id="intro">
+			<iframe src="play/intro/intro.html" id="intro_background" scrolling="no"></iframe>
+		</div>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+
+		<p><strong>Dies ist eine Geschichte darüber, wie harmlose Entscheidungen eine Welt dramatisch verändern können.</strong></p>
+		<p>
+			Diese putzigen Formen sind 50% Dreiecke, 50% Quadrate, und 100% leichte Formisten.
+			<span cartoon="i_like_squares.png">Aber nur ein bisschen!</span>
+			Tatsächlich <i>bevorzugt</i> jedes Polygon eine vielfältige Umgebung:
+		</p>
+
+		<iframe id="mini_intro" playable src="play/mini/mini_intro.html" width="800" height="385" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+      Du kannst sie nur verschieben, wenn sie mit ihrer unmittelbaren Umgebung nicht glücklich sind.
+      Wenn sie sich an ihrem Platz wohlfühlen, <i>kannst du sie nicht bewegen, bis sie wieder mit ihren Nachbarn unzufrieden sind</i>.
+      Sie haben nur eine einzige, einfache Regel:
+		</p>
+
+		<p style="text-align:center">
+			<b>
+			“Ich möchte umziehen, wenn weniger als 1/3 meiner Nachbarn so sind wie ich.”
+			</b>
+		</p>
+		<iframe playable src="play/mini/mini_unhappy.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:-30px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_happy.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_bored.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:30px"  embedded></iframe>
+		<div style="clear:both;height: 0;position: relative;">
+			<div style="width: 4px; height: 290px; background: #bbb;position: absolute;top: -292px;left: 245px;"></div>
+			<div style="width: 4px; height: 290px; background: #bbb;position: absolute;top: -292px;left: 537px;"></div>
+		</div>
+		<br>
+
+		<p>
+      Harmlos, oder?
+      Jede Form würde sich in einer gemischten Nachbarschaft wohlfühlen.
+      Ihr kleines Vorurteil kann eine größere Gesellschaft sicherlich nicht beeinflussen?
+      Naja...
+		</p>
+		<div class="instruction">
+			Verschiebe unglückliche Formen, bis niemand unglücklich ist:<br>
+			<span style="font-size:18px">(Bewege sie einfach auf zufällige freie Stellen. Ohne viel Nachdenken.)</span>
+		</div>
+
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/manual/manual.html" width="550" height="650"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			Und... unsere Form-Gesellschaft ist auf einmal extrem gespalten. Mist!
+		</p>
+		<p>
+      Manchmal wird eine Nachbarschaft eben "viereckig"
+      und es ist nicht ihr Fehler, wenn keine Dreiecke mehr dort hin wollen.
+      Und eine "dreieckige" Nachbarschaft würde sich über ein Viereck freuen, aber
+      <span cartoon="square_left.png">sie kann ja nichts dafür, wenn die Vierecke nicht interessiert sind.</span>
+		</p>
+		
+		<iframe id="mini_neighborhood" playable src="play/mini/mini_neighborhood.html" width="730" height="240" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			Im nächsten Beispiel werden unglückliche Formen automatisch auf freie Stellen verschoben.
+      Es gibt auch eine Grafik, die anzeigt, wie sich die Abgrenzung im Laufe der Zeit verändert.
+		</p>
+		<div class="instruction">
+			Lass die Simulation einige Male laufen. Was passiert?
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic.html" width="1030" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+      Was ist hier los? Es sind doch gute Formen, <span cartoon="nice_triangle.jpg">nette Formen</span>.
+      Und trotzdem, obwohl jede einzelne nur ein kleines Vorurteil hat, wird die ganze Form-Gesellschaft auseinander gerissen.
+		</p>
+		
+		<iframe id="mini_checkerboard" playable src="play/mini/mini_checkerboard.html" width="730" height="240" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			<strong>Kleine individuelle Vorurteile können zu einem großen gesellschaftlichen Vorurteil führen.</strong>
+		</p>
+		<p>
+    	Gleichheit ist ein instabiles Gleichgewicht.
+      Das kleinste Vorurteil kann eine ganze Gesellschaft zum Umkippen bringen.
+      Nun, wie wäre es, wenn wir diesen Formen beibrächten keine Vorurteile zu haben?
+      (Oder, falls du dich heute extrem böse fühlst, mehr Vorurteile?)
+		</p>
+		<div class="instruction">
+			Benutze den Regler um die Vorurteile der Formen einzustellen:
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic2.html" width="1030" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+      Beobachte wie die Trennung zunimmt, wenn die Vorurteile auf über 33% erhöht werden.
+      Was, wenn die Grenze bei 50% wäre?
+      Es erscheint vernünftig, wenn eine Form es bevorzugt nicht in der Minderheit zu sein...
+		</p>
+		
+		<iframe id="mini_bias_1" playable src="play/mini/mini_bias_1.html" width="310" height="420" scrolling="no" style="float:left; margin:0; margin-left:50px" embedded></iframe>
+		<iframe id="mini_bias_2" playable src="play/mini/mini_bias_2.html" width="310" height="420" scrolling="no" style="float:right; margin:0; margin-right:50px" embedded></iframe>
+		<div style="clear:both;height: 0;position: relative;">
+			<div style="width: 6px; height: 400px; background: #bbb;position: absolute;top: -420px;left: 397px;"></div>
+		</div>
+
+		<p>
+      Alles klar, einfach jedermanns Vorurteile auf Null setzen, richtig?
+      Haha, nichts da. Das reale Welt startet nicht täglich neu, mit einer zufälligen Anordnung der Einwohner.
+      Fast immer ziehst du nicht um.
+		</p>
+
+		<div class="instruction">
+			Die Welt startet getrennt. Was passiert, wenn du die Vorurteile verkleinerst?
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic3.html" width="1030" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			Siehst du, was <i>nicht</i> passiert?
+      Keine Veränderung. Keine gemischte Neuverteilung.
+      In einer Welt, in der es einmal Vorurteile gab, reicht es nicht voururteilsfrei zu sein.
+      Wir müssen aktiv werden.
+      Wie wäre es, wenn sich die Formen nach einem kleinen bisschen mehr Abwechslung sehnen würden?
+		</p>
+		
+		<iframe id="mini_nonconform" playable src="play/mini/mini_nonconform.html" width="400" height="440" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			Wow. Obwohl jedes Polygon mit bis zu 90% ihm gleichen Nachbarn zufrieden wäre,
+      vermischen sich alle.
+      Lass uns das im größeren Maßstab betrachten,
+      wenn wir die Menge von Vorurteil und Anti-Vorurteil für alle Formen ändern.
+		</p>
+		<div class="instruction">
+			Die Welt startet getrennt. Was passiert, wenn die Formen nur ein wenig Vielfalt verlangen?
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic4.html" width="1030" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			Alles was man braucht ist eine Änderung in der Vorstellung, wie eine akzeptable Umgebung auszusehen hat.
+      Also, liebe Formen, erinnert euch daran, dass es nicht um "Dreiecke gegen Vierecke" geht;
+      es geht darum zu entscheiden wie unsere Welt aussehen soll - und uns nicht mit weniger zufrieden zu geben.
+		</p>
+		<p style="text-align:center">
+			<b>
+				BRINGE SIE ALLE IN DIE KISTE DER
+				<span style="color:hsl(0,90%,60%)">F</span>
+				<span style="color:hsl(30,90%,60%)">R</span>
+				<span style="color:hsl(60,90%,45%)">E</span>
+				<span style="color:hsl(90,90%,60%)">U</span>
+				<span style="color:hsl(120,90%,60%)">N</span>
+				<span style="color:hsl(150,90%,60%)">D</span>
+				<span style="color:hsl(180,90%,60%)">S</span>
+				<span style="color:hsl(210,90%,60%)">C</span>
+				<span style="color:hsl(240,90%,60%)">H</span>
+				<span style="color:hsl(270,90%,60%)">A</span>
+				<span style="color:hsl(300,90%,60%)">F</span>
+				<span style="color:hsl(330,90%,60%)">T</span>
+				<br>
+				<span style="font-size:18px">(Hinweis: Bewege sie nicht direkt in die Kiste, halte die Paare nahe beieinander)</span>
+			</b>
+		</p>
+
+		<iframe playable src="play/mini/mini_cooperate.html" width="810" height="290" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+		
+		<p>
+      Ganz alleine loszuziehen kann einsam machen...
+      aber gemeinsam, Schritt für Schritt, schaffen wir es.
+		</p>
+
+		<div class="instruction">
+			Endlich, eine gemütliche alte Kiste zum darin herumspielen.
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic_sandbox.html" width="1030" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<div class="instruction" style="font-size:50px; line-height:50px">
+			ZUSAMMENFASSUNG:
+		</div>
+		<p>
+			<b>1. Kleine individuelle Vorurteile &rarr; Große gesellschaftliche Vorurteile.</b>
+			<br>
+			<!--Micromotives, macrobehaviour...-->
+      Wenn jemand sagt eine Gesellschaft ist "formistisch", sagen sie nicht, dass die Individuen in ihr Formisten sind.
+      Sie greifen dich nicht persönlich an.
+		</p>
+		<p>
+			<b>2. Die Vergangenheit spukt noch in der Gegenwart.</b>
+			<br>
+      Dein Schlafzimmerboden hört nicht auf schmutzig zu sein weil du aufgehört hast Essen auf den Teppich zu werfen.
+      Gleichheit zu schaffen ist wie Putzen: Es macht Arbeit. Und man wird niemals fertig.
+		</p>
+		<p>
+			<b>3. Verlange Vielfalt in deiner Nähe.</b>
+			<br>
+      Wenn kleine Vorurteile den Schlamassel, in dem wir leben, verursacht haben,
+      können kleine Anti-Vorurteile ihn möglicher weise wieder beheben.
+      Schau dich um. Deine Freunde, deine Kollegen, die Konferenz, an der du gerade teilnimmst.
+      Wenn ihr alle Dreiecke seid, verpasst ihr in eurem Leben ein paar interessante Vierecke -
+      das ist unfair zu allen. Strecke die Hand aus, über deine unmittelbare Umgebung hinaus.
+		</p>
+		<iframe playable src="play/mini/mini_ending.html" width="600" height="80" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+	</div>
+
+	<!-- References &amp; Remixes (Writing|Professor|Infographic|Video|Music -->
+	<div style="width: 100%; background: #222; overflow: hidden; color:#ddd">
+		<div class="chapter">
+			<div class="instruction">
+				Danke, dass du dieses Blog-Posting gespielt hast!
+			</div>
+			<br>
+			<div style="font-size:16px; line-height:18px">
+
+				Unser niedlicher, liebenswerter Abgrenzungs-Simulator basiert auf der Arbeit des Nobelpreisträgers und Spieletheoretikers
+        Thomas Schelling - nsbesondere sein mathematisches Modell der Rassenabgrenzung in
+				<a target="_blank" href="http://www.stat.berkeley.edu/~aldous/157/Papers/Schelling_Seg_Models.pdf">
+				Dynamic Models of Segregation.</a>
+        Wir haben dieses Modell erweitert, indem wir zeigen, wie die Forderung nach ein bisschen kultureller Vielfalt helfen kann
+        die Abgrenzung in einer Nachbarschaft aufzuheben. In anderen Worten: Wir gaben seinem Modell ein Happy End.
+
+				<br><br>
+
+				Schellings Modell ist eine überzeugende Demonstration wie
+				<span cartoon="hat.jpg">scheinbar harmlose</span> Regeln
+        zu sehr unerwünschten Ergebnissen führen können; aber natürlich sind die Situationen im richtigen Leben wesentlich komplizierter.
+        Vielleicht hast du ja Lust einen genaueren Blick auf richtige Daten in Bezug auf Schellings Modell zu werfen.
+        W.A.V. Clarks Publikation <a target="_blank" href="http://smg.media.mit.edu/library/Clark.ResidentialSegregation.pdf">
+				Residential Preferences and Neighborhood Racial Segregation: A Test of the Schelling Segregation Model</a>
+				von 1991 enthält eine Menge interessanter Daten.
+
+				<br><br>
+
+        Schellings Modell untersucht einen kleinen Aspekt des Problems, dass kleine Vorurteile große Auswirkungen haben können,
+        aber es gibt weitere Modelle, die sich mit anderen Aspekten beschäftigen.
+				<a target="_blank" href="http://www.ruf.rice.edu/~lane/papers/male_female.pdf">
+				Male-Female Differences: A Computer Simulation</a>
+        zeigt, wie kleine Unterschiede in der Wahrnehmung von Männern und Frauen große Effekte haben können.
+				<a target="_blank" href="http://iangent.blogspot.com/2013/10/the-petrie-multiplier-why-attack-on.html">
+				The Petrie Multiplier</a>
+        untersucht, wie negative Handlungen von
+				<span cartoon="not_all_triangles.jpg">ein paar faulen Äpfeln</span>
+        durch bestimmte Umstände sehr verstärkt werden können.
+
+				<br><br>
+
+				Das Endergebnis unserer Variation von Schellings Simulator ist, dass die Forderung nach etwas Vielfalt
+        in unserer Umgebung einen großen Unterschied für die Gesamtsituation macht. Eine Anwendung dieser Idee in der Realität ist
+				<a target="_blank" href="http://plzdiversifyyourpanel.tumblr.com/">Plz Diversify Your Panel</a>,
+        eine Initiative, bei der überrepräsentierte Redner Einladungen zu unausgewogen besetzten Diskussionen ablehnen.
+				<br><br>
+
+				Das Format dieses spielbaren Postings wurde inspiriert von Bret Victor's Arbeit
+				<a target="_blank" href="http://worrydream.com/ExplorableExplanations/">
+				Explorable Explanations</a> und Ian Bogost's Arbeit
+				<a target="_blank" href="http://bogost.com/books/persuasive_games/">
+				procedural rhetoric</a>.
+
+			</div>
+		</div>
+	</div>
+
+	<!-- SPLASH -->
+	<div id="outro_container">
+		<div id="outro">
+			<iframe src="play/outro/outro.html" id="outro_background" scrolling="no"></iframe>
+		</div>
+	</div>
+
+</body>
+
+<script src="js/Mouse.js"></script>
+<script src="js/intro.js"></script>
+
+</html>
