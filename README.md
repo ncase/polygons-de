@@ -1,18 +1,18 @@
-![](http://i.imgur.com/NcsRW1q.png)
+![](http://i.imgur.com/FMRT17U.png)
 
-**[PLAY IT HERE](http://ncase.me/polygons)**
+**[HIER SPIELEN](http://ncase.me/polygons-de)**
 
 ---
 
-This playable post is [public domain (CC0)](http://creativecommons.org/publicdomain/zero/1.0).
+Diese spielbare Geschichte ist [gemeinfrei (CC0)](http://creativecommons.org/publicdomain/zero/1.0/deed.de).
 			
-Please feel free to use this in your classrooms,
-make video/picture/text adaptations,
-or modify the source code!
-attribution is not mandatory, but super appreciated.
-We are [Vi Hart](http://vihart.com/) and [Nicky Case](http://ncase.me/).
-		
-Show us how you're using and remixing Parable of the Polygons!    
-Tweet us at
-[@vihartvihart](https://twitter.com/vihartvihart) and
+Sie kann uneingeschränkt im Unterricht verwendet,
+in Videos/Bilder/Texte adaptiert
+oder im Quelltext verändert werden!
+Die Nennung der Quelle ist nicht erforderlich, aber superwillkommen.
+Wir sind [Vi Hart](http://vihart.com/) und [Nicky Case](http://ncase.me/).
+
+Lasst uns wissen, wie ihr die Parabel der Polygone nutzt und verändert!    
+Tweetet (besser auf Englisch) an
+[@vihartvihart](https://twitter.com/vihartvihart) und
 [@ncasenmare](https://twitter.com/ncasenmare).
