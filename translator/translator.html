@@ -96,7 +96,7 @@
         <span class="ostrich-light">Ostrich Sans Light</span> by the
         <a href="https://www.theleagueofmoveabletype.com/ostrich-sans">League of Movable Type</a>.</p>
 
-    <img src="../play/intro/intro_banner.png"></img>
+    <img src="../../polygons/play/intro/intro_banner.png"></img>
     <script>
         draw(function(ctx) {
             var gradient = ctx.createRadialGradient(0.5, 0.5, 0.35, 0.5, 0.5, 0.5);
@@ -108,46 +108,57 @@
                 ctx.fillStyle = gradient;
                 ctx.fillRect(0, -0.1, 1, 1.2);
             ctx.restore();
-            putText(ctx, 160, 195, 128, "white", "Ostrich Sans", "Parable of the Polygons");
-            putText(ctx, 290, 250, 56, "gray", "Ostrich Sans", "A Playable Post on the Shape of Society");
+            putText(ctx, 160, 195, 128, "white", "Ostrich Sans", "Die Parabel der Polygone");
+            putText(ctx, 230, 250, 56, "gray", "Ostrich Sans", "Ein spielbares Posting zur Form der Gesellschaft");
         })
     </script>
 
-    <img src="../play/mini/dragging.png"></img>
+    <img src="../../polygons/play/mini/dragging.png"></img>
     <script>
         draw(function(ctx, img) {
             ctx.drawImage(img, 0, 0);
             for (var y = 100; y < 200; y += 80)
-                tapeRect(ctx, 220, y, 340, 60);
-            putText(ctx, 246, 156, 50, "#aaa", "Ostrich Sans Black", "Drag & Drop the");
-            putText(ctx, 250, 218, 44, "#aaa", "Ostrich Sans Black", "Unhappy Polygons");
+                tapeRect(ctx, 210, y, 370, 60);
+            putText(ctx, 270, 156, 46, "#aaa", "Ostrich Sans Black", "Verschiebe die");
+            putText(ctx, 222, 218, 40, "#aaa", "Ostrich Sans Black", "unzufriedenen Polygone");
         })
     </script>
 
-    <img src="../play/img/ui_buttons.png"></img>
+    <img src="../../polygons/play/img/new_board.png"></img>
     <script>
         draw(function(ctx, img) {
             ctx.drawImage(img, 0, 0);
-            for (var y = 6; y < 408; y += 52)
-                tapeRect(ctx, 56, y, 133, 34);
+            for (var y = 4; y < 100; y += 60)
+                tapeRect(ctx, 56, y, 163, 45);
+            for (var y = 43; y < 150; y += 60)
+                putText(ctx, 80, y, 48, "#fff", "Ostrich Sans Light", "Neustart");
+        })
+    </script>
+
+    <img src="../../polygons/play/img/ui_buttons.png"></img>
+    <script>
+        draw(function(ctx, img) {
+            ctx.drawImage(img, 0, 0);
+            for (var y = 4; y < 408; y += 52)
+                tapeRect(ctx, 50, y, 140, 40);
             for (var y = 38; y < 200; y += 52)
-                putText(ctx, 58, y, 42, "#fff", "Ostrich Sans Light", "New Board");
+                putText(ctx, 70, y, 42, "#fff", "Ostrich Sans Light", "Neustart");
             for (var y = 245; y < 300; y += 52)
-                putText(ctx, 58, y, 36, "#fff", "Ostrich Sans Light", "Start Movin'");
+                putText(ctx, 65, y, 44, "#fff", "Ostrich Sans Light", "Los geht's");
             for (var y = 350; y < 450; y += 52)
-                putText(ctx, 58, y, 41, "#fff", "Ostrich Sans Light", "Stop Movin'");
+                putText(ctx, 65, y, 44, "#fff", "Ostrich Sans Light", "Anhalten");
         })
     </script>
 
-    <img src="../play/img/stats.png"></img>
+    <img src="../../polygons/play/img/stats.png"></img>
     <script>
         draw(function(ctx, img) {
             ctx.drawImage(img, 0, 0);
-            tapeRect(ctx, 5, 164, 20, 105);
-            tapeRect(ctx, 30, 275, 40, 18);
-            putText(ctx, 35, 293, 20, "#666", "Ostrich Sans Black", "Time");
+            tapeRect(ctx, 5, 165, 20, 100);
+            tapeRect(ctx, 30, 275, 40, 22);
+            putText(ctx, 35, 293, 20, "#666", "Ostrich Sans Black", "Zeit");
             ctx.rotate(Math.PI/-2);
-            putText(ctx, -260, 22, 20, "#666", "Ostrich Sans Black", "Segregation");
+            putText(ctx, -260, 24, 24, "#666", "Ostrich Sans Black", "Trennung");
         })
     </script>
 </body>
